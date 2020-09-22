@@ -1,4 +1,12 @@
-name,age,address
-tanaka,33,okinawa
-saitou,32,fukuoka
-yanagi,24,hokkaido
+name,age,address,hobby
+tanaka,33,okinawa,lacrosse
+saitou,32,fukuoka,lacrosse
+yanagi,24,hokkaido,lacrosse
+name,age,address,lacrosse
+tanaka,33,okinawa,lacrosse
+saitou,32,fukuoka,lacrosse
+yanagi,24,hokkaido,lacrosse
+name,age,address,lacrosse
+tanaka,33,okinawa,lacrosse
+saitou,32,fukuoka,lacrosse
+yanagi,24,hokkaido,lacrosse

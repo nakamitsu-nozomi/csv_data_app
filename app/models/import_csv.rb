@@ -11,16 +11,17 @@ class ImportCsv < ApplicationRecord
           name: row["name"],
           age: row["age"],
           address: row["address"],
-          hobby: row["hobby"]
+          hobby: row["hobby"],
+          job: row["job"]
       }
     end
-    puts "インポート処理を開始"
-    # インポートができなかった場合の例外処理
-    begin
+    # puts "インポート処理を開始"
+    # # インポートができなかった場合の例外処理
+    # begin
       User.create!(list)
       puts "インポート完了!!"
-    rescue ActiveModel::UnknownAttributeError => invalid
-      puts "インポートに失敗：UnknownAttributeError"
-    end
+    # rescue ActiveModel::UnknownAttributeError => invalid
+    #   puts "インポートに失敗：UnknownAttributeError"
+    # end
   end
 end
